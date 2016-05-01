@@ -1,0 +1,17 @@
+{
+  "name": "react-kiss",
+  "version": "0.2.0",
+  "main": "./build/react-kiss.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.1.4",
+    "babel-loader": "^6.0.1",
+    "babel-plugin-react-transform": "^1.1.1",
+    "babel-preset-es2015": "^6.1.4",
+    "babel-preset-react": "^6.1.4",
+    "babel-preset-stage-0": "^6.1.4",
+    "react": "^0.14",
+    "react-dom": "^0.14.0",
+    "webpack": "^1.9.10"
+  }
+}

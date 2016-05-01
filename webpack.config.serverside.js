@@ -11,7 +11,7 @@ module.exports = {
     // the project dir
     context: __dirname,
     entry: [
-        './client/Recipes/startup/serverRegistration'
+        './client/Recipes/startup/serverRegistration?http://0.0.0.0:8080'
         // or './client/Recipes-redux/startup/serverRegistration'
         ],
     output: {

@@ -15,7 +15,7 @@ class RecipeController extends Controller
     public function homeAction(Request $request)
     {
         $serializer = $this->get('serializer');
-        return $this->render('recipe/home.html.twig', [
+        return $this->render('recipe/home_kiss.html.twig', [
             // We pass an array as props
             'props' => $serializer->normalize(
                 ['recipes' => $this->get('recipe.manager')->findAll()->recipes,
